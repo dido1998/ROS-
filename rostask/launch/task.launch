@@ -1,0 +1,7 @@
+<launch>
+	<node pkg="rostask" type="video_subscriber.py" name="sub" output="screen" respawn="false"/>
+	<node pkg="rostask" type="coeff_subscriber.py" name="coeff" output="screen" respawn="false"/>
+	<node pkg="rostask" type="video_publisher.py" name="pub" output="screen" respawn="false"/>
+	
+	
+</launch>
