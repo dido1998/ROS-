@@ -1,0 +1,8 @@
+<launch>
+<group ns="talker9">
+<node pkg="beginner_tutorials" name="tlk" type="talker.py">
+<param name="test_param" type="double" value="10.0"/>
+</node>
+</group>
+</launch>
+
